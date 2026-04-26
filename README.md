@@ -43,6 +43,11 @@ Each release is initialized with the following steps:
 | PATCH | `/api/releases/:id/info` | Update additional information for a release. |
 | DELETE | `/api/releases/:id` | Delete a specific release. |
 
+
+## API Testing
+
+Postman Collection: [Open Collection](https://documenter.getpostman.com/view/19675500/2sBXqGr2c7)
+
 ## Local Setup Instructions
 
 ### Prerequisites
