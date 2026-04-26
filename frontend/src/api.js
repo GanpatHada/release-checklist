@@ -1,2 +1,2 @@
 import axios from "axios"; 
-export default axios.create({ baseURL: "http://localhost:5000/api/releases" });
+export default axios.create({ baseURL: "https://release-checklist-fm3g.onrender.com" });
