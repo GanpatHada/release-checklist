@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background: #eef1f5;
+  font-family: Arial, sans-serif;
+}
+.page {
+  padding: 30px;
+}
+.window {
+  background: #fff;
+  min-height: 90vh;
+  border: 1px solid #d9dee8;
+}
+.topbar {
+  height: 28px;
+  background: #c6d0db;
+}
+h1 {
+  text-align: center;
+  color: #2f3d4f;
+  margin-top: 35px;
+}
+p {
+  text-align: center;
+  color: #6f7a88;
+}
+.panel,
+.formBox,
+.detailBox {
+  width: 75%;
+  margin: 40px auto;
+  border: 1px solid #d7dce5;
+}
+.panelHead,
+.detailHead {
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d7dce5;
+}
+.btn {
+  background: #6557ff;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #e2e6ed;
+  padding: 12px;
+  text-align: left;
+}
+.empty {
+  text-align: center;
+  padding: 30px;
+}
+.badge {
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+  font-size: 13px;
+}
+.planned {
+  background: gray;
+}
+.ongoing {
+  background: orange;
+}
+.done {
+  background: green;
+}
+.deleteBtn {
+  border: none;
+  background: crimson;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.formBox,
+.detailBox {
+  padding: 20px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+textarea {
+  min-height: 140px;
+}
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.checks label {
+  display: block;
+  margin: 10px 0;
+}
