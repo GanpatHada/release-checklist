@@ -7,6 +7,12 @@ A simple application to track and manage software release steps.
 - `backend/`: Node.js/Express API with PostgreSQL.
 - `frontend/`: React application built with Vite.
 
+## Screenshots
+
+![Release List](./frontend/src/assets/image-1.png)
+![Create Release](./frontend/src/assets/image-2.png)
+![Release Details](./frontend/src/assets/image-3.png)
+
 ## Database Schema
 
 The application uses a PostgreSQL database with a `releases` table.
